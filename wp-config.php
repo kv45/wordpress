@@ -17,16 +17,21 @@
  *
  * @package WordPress
  */
+/* FTP */
+define('FS_METHOD','direct');
+
+/* disable autoupdate */
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'WP4');
+define('DB_NAME', 'wp4');
 
 /** MySQL database username */
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root123');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +51,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'sUnsl>Q!Pd83hX^9`/@/x|`2gc(i_gkj].}xKzVR?cTi=8O`Pqzf~pm!K%10=?su');
-define('SECURE_AUTH_KEY',  '_]sUaqZu>6;D.Ao`8}jA E4+md5x+.4i:sJ-;5~pEvkY:s,e}UOBOte;rM-[!|74');
-define('LOGGED_IN_KEY',    'BZA:]c+!gqKC0Mt[{.pUGnN8-3nq1_9M&#9E<yDkM5Q8Br5.8f7p9Tvi/nK^]CO|');
-define('NONCE_KEY',        'KT%!E7F}*KwC?M E>Mrka]4g+s^.)C5sS& @p%)H{e7!m`k!8n]U:4vtp /D2_p?');
-define('AUTH_SALT',        'I0ea:+1ML<cErX9ghP&vfox=S1s[uht$@g@o07<V0=>KMPwER3!napc~UFm*(ENn');
-define('SECURE_AUTH_SALT', '18CI)hJ+PG9&,Zy8W>(^Z+k[Z,?)lMZE*4*PQcu$:vPrLw(K;&$*=x@T4-|<9O6s');
-define('LOGGED_IN_SALT',   'XTWL7NN=b+xhC, hYPq}s-&B<$nX~_m7Lj~-2#N9csSeG>(MoZ <m?/|JgMEJPE6');
-define('NONCE_SALT',       'In~Gw(sXSEzvw0`+]|obG)@&T|r/_!Pdn/8Z)|JD|gdOMN?*Z7lLW39=*]yc=#FB');
+define('AUTH_KEY',         '56r^-;4`;$`83CSp{SCJaI ~lh7QJ9#-U0tPCFe/pk%GrTAeycKmu5Q|GKjZzN5@');
+define('SECURE_AUTH_KEY',  '7F8W,mApR;aX3>|T@a% ;PP9cp?W?yZ2,4 V|b$#&N<$CY]9E*hj`z(=O1MG:;eB');
+define('LOGGED_IN_KEY',    '&FejS4}ovbE#[HT~k6@MMcxt{jIUerS2w8h)^;clxa:%~)USb6u-44VA%`wiytBr');
+define('NONCE_KEY',        'MX<rxfl=4Yxe~M-PI5w(^c}hr7G=PbBg1Fws5OsVr!QcwQ:%ck(m< Yjj8De8w$i');
+define('AUTH_SALT',        'IoD/CE] yB[za|R0[XTIl42ta:?f3IoR|PHlWIK+To05tm.*=S1CBJNEyP_W@Ly<');
+define('SECURE_AUTH_SALT', 'whxl#AL_6/L2/Z3!DPZbJp)m)#J2Tdp4H_>Br-hDqMKxTdF:d-uYut<xhq.D~%)d');
+define('LOGGED_IN_SALT',   'yNu1+3OFp-tgRHX?9dAc]<RP:w{V8SnK*CY^6Z4GSTAq?6U2&8%`65X(>k5zg.13');
+define('NONCE_SALT',       '%U=z>LZ}+LSf[+|r7S2ISbB[{e2@eJ5Jq.n T7nn~7L%:5wES3If(RJV)A*;yXaJ');
 
 /**#@-*/
 
